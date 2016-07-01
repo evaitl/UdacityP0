@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private final String TAG="MainActivity";
     // We can't use an anonymous class in a loop, because the
     // variables would have to be final. Create our own private class.
     private class ToastListener implements View.OnClickListener {
